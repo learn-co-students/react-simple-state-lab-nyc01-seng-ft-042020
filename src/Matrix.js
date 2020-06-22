@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Matrix extends Component {
+export default class Matrix extends React.Component {
   
   genRow = (vals) => {
     return vals.map(val => <Cell value={val} />) // replace me and render a cell component instead!
